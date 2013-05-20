@@ -113,6 +113,7 @@ void draw() {
   }
   
   removeCache(canvas);
+  //removeCache(canvas); // removed because of flickering on low frameRate
   // here we end drawing in the canvas and send it to the Syphon server
   canvas.endDraw();
   if (enableSyphon) {
