@@ -112,7 +112,6 @@ void draw() {
     }
   }
   
-  
   removeCache(canvas);
   // here we end drawing in the canvas and send it to the Syphon server
   canvas.endDraw();

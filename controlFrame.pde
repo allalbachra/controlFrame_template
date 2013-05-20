@@ -33,7 +33,6 @@ float op; // opacity
 float strokeOp; // stroke opacity
 float fps = 120; //frameRate control value
 
-int shapeSelector;
 int shapeSelector=0;
 int sldx = 110; //x value for the H sliders
 int rgbSliderH = 160; // height of the Vertical sliders
