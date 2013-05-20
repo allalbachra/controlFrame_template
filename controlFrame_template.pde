@@ -35,6 +35,7 @@ void setup() {
   sy = random(cHeight);
   ex = random(cWidth);
   ey = random(cHeight);
+  loop();
 }
 
 
@@ -112,6 +113,7 @@ void draw() {
   }
   
   
+  removeCache(canvas);
   // here we end drawing in the canvas and send it to the Syphon server
   canvas.endDraw();
   if (enableSyphon) {
